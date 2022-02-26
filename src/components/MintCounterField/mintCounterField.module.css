@@ -1,0 +1,62 @@
+.container {
+	min-height: 2rem;
+	min-width: 300px;
+	display: flex;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.inputLabel {
+	display: none;
+}
+
+.counter {
+	text-align: center;
+	min-height: inherit;
+	font-family: inherit;
+	border: none;
+	color: #6366f1;
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+	height: 100%;
+	width: 100%;
+	max-width: 40%;
+}
+
+.countButton {
+	font-family: inherit;
+	cursor: pointer;
+	min-height: inherit;
+	border: none;
+	border: 1px solid #cccccc;
+	background-color: white;
+	height: 100%;
+	width: 100%;
+	max-width: 15%;
+}
+
+.mintButton {
+	cursor: pointer;
+	background: white;
+	font-family: inherit;
+	width: 100%;
+	background-color: #6366f1;
+	color: white;
+	border: none;
+	width: 100%;
+}
+
+.mintButton:disabled {
+	color: rgba(0, 0, 0, 0.26);
+	background-color: rgba(0, 0, 0, 0.12);
+	cursor: auto;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input[type="number"] {
+	-moz-appearance: textfield;
+}

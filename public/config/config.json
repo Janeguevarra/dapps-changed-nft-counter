@@ -1,0 +1,23 @@
+{
+  "CONTRACT_ADDRESS": "0x88c3a90a8eaF00b8bEccA576A33eeB138C285eB0",
+  "SCAN_LINK": "https://etherscan.io/address/0x88c3a90a8eaF00b8bEccA576A33eeB138C285eB0",
+  "NETWORK": {
+    "NAME": "Rinkeby ",
+    "SYMBOL": "ETH",
+    "ID": 4
+  },
+  "TEST_NETWORK": {
+    "NAME": "Etherium ",
+    "SYMBOL": "ETH",
+    "ID": 1
+  },
+  "NFT_NAME": "test",
+  "SYMBOL": "Set",
+  "MAX_SUPPLY": 900,
+  "WEI_COST": 80000000000000000,
+  "DISPLAY_COST": 0,
+  "GAS_LIMIT": 240000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "",
+  "SHOW_BACKGROUND": false
+}
