@@ -132,7 +132,7 @@ export const EthValue = styled.p`
 	font-size: 20px;
 	width: 45%;
 	color: gray;
-	padding: 16px;
+	padding: 16px 0;
     text-align: center;
 `;
 export const EthDetail = styled.div`
@@ -161,7 +161,7 @@ export const MintNumber = styled.div`
 `;
 export const MintMax = styled.p`
 	font-size: 14px;
-	width: 20%;
+	width: 25%;
 	padding: 20px 0;
 	border-right: 1px solid;
 	color: gray;
