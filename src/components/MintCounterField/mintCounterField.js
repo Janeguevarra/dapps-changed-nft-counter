@@ -12,13 +12,13 @@ const ControlButton = styled.button`
 
 function MintCounterField({
 	inputLabel,
-	// label,
-	// min = 1,
-	// max = 10,
-	// onMint,
-	// value,
-	// onChange,
-	// disabled,
+	label,
+	min = 1,
+	max = 10,
+	onMint,
+	value,
+	onChange,
+	disabled,
 }) {
 	// const [count, setCount] = React.useState(defaultValue);
 	function _onChange(evt) {
