@@ -23,7 +23,7 @@ function MintCounterField({
 	// const [count, setCount] = React.useState(defaultValue);
 	function _onChange(evt) {
 		evt.preventDefault();
-		setCount(Number(evt.target.value));
+		// setCount(Number(evt.target.value));
 		onChange(Number(evt.target.value));
 	}
 
