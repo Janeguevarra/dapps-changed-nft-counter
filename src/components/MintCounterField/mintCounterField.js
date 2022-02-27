@@ -54,9 +54,9 @@ function MintCounterField({
 			>
 				-
 			</ControlButton>
-			{/* <label for="counter" className={classes.inputLabel}>
+			<label for="counter" className={classes.inputLabel}>
 				{inputLabel}
-			</label> */}
+			</label>
 			<input
 				id="counter"
 				className={classes.counter}
