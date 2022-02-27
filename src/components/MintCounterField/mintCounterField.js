@@ -72,13 +72,13 @@ function MintCounterField({
 			>
 				+
 			</ControlButton>
-			<button
+			{/* <button
 				className={classes.mintButton}
 				onClick={onMint}
 				disabled={disabled}
 			>
 				{label}
-			</button>
+			</button> */}
 		</div>
 	);
 }
