@@ -5,7 +5,6 @@ import styled from "styled-components";
 const ControlButton = styled.button`
 	&:disabled {
 		color: rgba(0, 0, 0, 0.26);
-		background-color: rgba(0, 0, 0, 0.12);
 		cursor: auto;
 	}
 `;
@@ -48,7 +47,7 @@ function MintCounterField({
 	return (
 		<div className={classes.container}>
 			<ControlButton
-				className={classes.countButton}
+				className={classes.decreaseButton}
 				onClick={onDecrease}
 				disabled={value === min}
 			>
@@ -66,19 +65,12 @@ function MintCounterField({
 				onChange={_onChange}
 			></input>
 			<ControlButton
-				className={classes.countButton}
+				className={classes.increaseButton}
 				onClick={onIncrease}
 				disabled={value === max}
 			>
 				+
 			</ControlButton>
-			<button
-				className={classes.mintButton}
-				onClick={onMint}
-				disabled={disabled}
-			>
-				{label}
-			</button>
 		</div>
 	);
 }

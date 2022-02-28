@@ -1,8 +1,11 @@
 .container {
-	min-height: 2rem;
-	min-width: 300px;
+	height: 54px;
+	width: 100%;
 	display: flex;
+	margin-top: 40px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 22px;
+	border: 1px gray solid;
 }
 
 .inputLabel {
@@ -14,24 +17,39 @@
 	min-height: inherit;
 	font-family: inherit;
 	border: none;
-	color: #6366f1;
-	border-top: 1px solid #cccccc;
-	border-bottom: 1px solid #cccccc;
+	color: gray;
+	background-color: black;
 	height: 100%;
 	width: 100%;
 	max-width: 40%;
 }
 
-.countButton {
+.decreaseButton {
 	font-family: inherit;
 	cursor: pointer;
 	min-height: inherit;
 	border: none;
-	border: 1px solid #cccccc;
-	background-color: white;
+	color: gray;
+	font-size: 20px;
+	border-left: 1px solid gray;
+	border-radius: 22px;;
+	background-color: black;
 	height: 100%;
 	width: 100%;
-	max-width: 15%;
+}
+
+.increaseButton {
+	font-family: inherit;
+	cursor: pointer;
+	min-height: inherit;
+	border: none;
+	color: gray;
+	font-size: 20px;
+	border-right: 1px solid gray;
+	border-radius: 22px;;
+	background-color: black;
+	height: 100%;
+	width: 100%;
 }
 
 .mintButton {
@@ -41,13 +59,12 @@
 	width: 100%;
 	background-color: #6366f1;
 	color: white;
-	border: none;
+	border: 1px solid gray;
 	width: 100%;
 }
 
 .mintButton:disabled {
-	color: rgba(0, 0, 0, 0.26);
-	background-color: rgba(0, 0, 0, 0.12);
+	color: gray;
 	cursor: auto;
 }
 
