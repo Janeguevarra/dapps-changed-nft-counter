@@ -353,29 +353,6 @@ function App() {
             />
           </div>
           <s.SoldButton onClick={mintNow}>MINT NOW</s.SoldButton>
-					{/* <div
-						style={{
-							padding: "1rem 0",
-							margin: "auto",
-							width: "100%",
-							maxWidth: "320px",
-						}}
-					>
-						<MintCounterField
-							inputLabel="Mint"
-							onChange={onChange}
-							value={nftcounter}
-							disabled={claimingNft ? true : false}
-							label={
-								countdown === 0
-									? claimingOne
-										? "CLAIMED"
-										: "MINT NOW"
-									: "MINT SOON"
-							}
-							onMint={mintNow}
-						/>
-					</div> */}
 					<div style={{ width: "100%", textAlign: "center", color: "white" }}>{feedback}</div>
 					<FeedbackModal open={open} onClose={() => setOpen(false)}>
 						{feedback}
