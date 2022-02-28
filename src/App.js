@@ -353,8 +353,6 @@ function App() {
             />
           </div>
           <s.SoldButton onClick={mintNow}>MINT NOW</s.SoldButton>
-
-          {/* <s.CardText>Mint 1 | 0.08ETH</s.CardText> */}
 					{/* <div
 						style={{
 							padding: "1rem 0",
