@@ -112,15 +112,6 @@ function App() {
           );
           setClaimingNft(false);
           setClaimingOne(true);
-          /*if (amount === 1) {
-            setClaimingOne(true);
-          }
-          else if (amount === 2) {
-            setClaimingFive(true);
-          }
-          else if(amount === 3) {
-            setClaimingTen(true);
-          }*/
           dispatch(fetchData(blockchain.account));
         });
     } else {
