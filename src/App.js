@@ -354,10 +354,6 @@ function App() {
           </div>
           <s.SoldButton onClick={mintNow}>MINT NOW</s.SoldButton>
 
-          {/* <div style={{ width: "100%", textAlign: "center" }}>{feedback}</div>
-					<FeedbackModal open={open} onClose={() => setOpen(false)}>
-						{feedback}
-					</FeedbackModal> */}
           {/* <s.CardText>Mint 1 | 0.08ETH</s.CardText> */}
 					{/* <div
 						style={{
