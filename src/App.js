@@ -147,14 +147,14 @@ function App() {
   };
   const mintNow = (e) => {
     if (nftcounter > 0) {
-      // let amount = nftcounter;
-      // console.log(amount);
-      // if (blockchain.account !== "" && blockchain.smartContract !== null) {
-      //   e.target.innerHTML = "CLAIMING";
-      // }
-      // setMintAmount(amount);
-      // claimNFTs(e, amount);
-      // getData();
+      let amount = nftcounter;
+      console.log(amount);
+      if (blockchain.account !== "" && blockchain.smartContract !== null) {
+        e.target.innerHTML = "CLAIMING";
+      }
+      setMintAmount(amount);
+      claimNFTs(e, amount);
+      getData();
     }
   };
   useEffect(() => {
