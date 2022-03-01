@@ -153,7 +153,7 @@ function App() {
         e.target.innerHTML = "CLAIMING";
       }
       setMintAmount(amount);
-      // claimNFTs(e, amount);
+      claimNFTs(e, amount);
       getData();
     }
   };
