@@ -152,9 +152,9 @@ function App() {
       if (blockchain.account !== "" && blockchain.smartContract !== null) {
         e.target.innerHTML = "CLAIMING";
       }
-      // setMintAmount(amount);
-      // claimNFTs(e, amount);
-      // getData();
+      setMintAmount(amount);
+      claimNFTs(e, amount);
+      getData();
     }
   };
   useEffect(() => {
