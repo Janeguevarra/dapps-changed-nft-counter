@@ -236,13 +236,13 @@ function App() {
           <s.MenuItem href="#">Instagram</s.MenuItem>
 
           {blockchain.account === "" || blockchain.smartContract === null ? (
-            <s.MenuActiveItem
-              onClick={(e) => {
-                selectWallet(e);
-              }}
-            >
-              CONNECT
-            </s.MenuActiveItem>
+            // <s.MenuActiveItem
+            //   onClick={(e) => {
+            //     selectWallet(e);
+            //   }}
+            // >
+            //   CONNECT
+            // </s.MenuActiveItem>
           ) : (
             <></>
           )}
