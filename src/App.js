@@ -180,13 +180,13 @@ function App() {
         setLeftTime(data);
         setCountdown(diff_Time);
       } else {
-        let data = {
-          second: 0,
-          minute: 0,
-          hour: 0,
-          day: 0,
-        };
-        setLeftTime(data);
+        // let data = {
+        //   second: 0,
+        //   minute: 0,
+        //   hour: 0,
+        //   day: 0,
+        // };
+        // setLeftTime(data);
       }
     }, 1000);
   }, []);
