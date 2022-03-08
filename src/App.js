@@ -107,12 +107,12 @@ function App() {
         })
         .then((receipt) => {
           console.log(receipt);
-          setFeedback(
-            `WOW, the ${CONFIG.NFT_NAME} is yours! go visit Opensea.io to view it.`
-          );
-          setClaimingNft(false);
-          setClaimingOne(true);
-          dispatch(fetchData(blockchain.account));
+          // setFeedback(
+          //   `WOW, the ${CONFIG.NFT_NAME} is yours! go visit Opensea.io to view it.`
+          // );
+          // setClaimingNft(false);
+          // setClaimingOne(true);
+          // dispatch(fetchData(blockchain.account));
         });
     } else {
       setOpen(true);
